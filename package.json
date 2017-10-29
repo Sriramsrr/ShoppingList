@@ -1,0 +1,14 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Electron experiment",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sriram, R",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "1.7.9"
+  }
+}
