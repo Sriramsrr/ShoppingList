@@ -9,6 +9,7 @@
   "author": "Sriram, R",
   "license": "MIT",
   "dependencies": {
-    "electron": "1.7.9"
+    "electron": "1.7.9",
+    "nconf": "^0.9.1"
   }
 }
