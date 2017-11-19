@@ -1,15 +1,17 @@
 {
-  "name": "shoppinglist",
+  "name": "SoundMachine",
   "version": "1.0.0",
   "description": "Electron experiment",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win":"electron-packager . SoundMachine --overwrite --asar=true --platform=win32 --arch=ia32 --out ~/Electron/SoundMachine --version 1.7.9 --icon=./img/app-icon.ico"
   },
   "author": "Sriram, R",
   "license": "MIT",
   "dependencies": {
     "electron": "1.7.9",
+    "electron-packager": "^9.1.0",
     "nconf": "^0.9.1"
   }
 }
